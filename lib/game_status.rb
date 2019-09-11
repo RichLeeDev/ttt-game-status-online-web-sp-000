@@ -36,5 +36,11 @@ WIN_COMBINATIONS = [
     position_7 = board[win_index_7]
     position_8 = board[win_index_8]
     position_9 = board[win_index_9]
-      
+    
+  if position_1 == 'X' && position_2 == 'X' && position_3 == 'X'
+    return WIN_COMBINATIONS
+  else
+    false
+  end
+end
       
