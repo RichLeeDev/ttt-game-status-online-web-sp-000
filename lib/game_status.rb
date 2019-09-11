@@ -22,13 +22,12 @@ WIN_COMBINATIONS = [
     win_index_1 = win_combinations[0]
     win_index_2 = win_combinations[1]
     win_index_3 = win_combinations[2]
-   
+    position_1 = board[win_index_1]
+    position_2 = board[win_index_2]
+    position_3 = board[win_index_3]
     
   end
   
-   position_1 = board[win_index_1]
-    position_2 = board[win_index_2]
-    position_3 = board[win_index_3]
   if position_1 == 'X' && position_2 == 'X' && position_3 == 'X'
     return WIN_COMBINATIONS
   else
